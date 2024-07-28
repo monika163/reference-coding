@@ -1,5 +1,5 @@
 import axios from "axios";
-const DEPLOYED = "https://pear-poised-hen.cyclic.app/";
+const DEPLOYED = "https://reference-coding.onrender.com"
 const LOCALHOST = "http://localhost:8080";
 
 export const API_BASE_URL = LOCALHOST;
