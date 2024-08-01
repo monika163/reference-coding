@@ -21,7 +21,7 @@ const createPaymentLink = async (orderId) => {
       },
       reminder_enable: true,
       // callback_url: `https://codewithzosh-ecommerce-mern.vercel.app/payment/${orderId}`,
-      callback_url: `http://localhost:3000/payment/${orderId}`,
+      callback_url: `https://reference-coding-1.onrender.com/payment/${orderId}`,
       callback_method: "get"
     };
 
